@@ -1,0 +1,18 @@
+{
+  "client_id": "https://thestocker-gats.github.io/guild-oauth-client/heygen-client.json",
+  "client_name": "Guild factory",
+  "client_uri": "https://vinnyk.academy",
+  "redirect_uris": [
+    "https://p5.vinnyk.academy/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:device_code"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid profile email"
+}
